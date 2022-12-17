@@ -1,0 +1,185 @@
+.body {
+  margin: 0;
+  background-color: rgb(20 20 20);
+  user-select: none;
+  color: rgb(225 227 230);
+  font-size: 13px;
+  font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",arial,Tahoma,verdana,sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 49px;
+  background-color: rgb(34 34 34);
+  border-bottom: 1px solid rgb(41 41 41);
+  padding: 0 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.layout {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 165px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: .15s;
+  cursor: pointer;
+  transition: .15s;
+}
+
+.logo:hover {
+  opacity: .7;
+}
+
+.svg {
+  margin-left: -2px;
+  pointer-events: none;
+}
+
+.search {
+  width: 230px;
+  height: 32px;
+  background-color: rgb(66 66 66);
+  border-radius: 8px;
+  padding: 0 0 0 34px;
+  color: rgb(225 227 230);
+  background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20opacity%3D%22.92%22%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200H16V16H0z%22%2F%3E%3Cpath%20d%3D%22M6.5%201a5.5%205.5%200%200%201%204.383%208.823l3.896%203.9a.75.75%200%200%201-1.061%201.06l-3.895-3.9A5.5%205.5%200%201%201%206.5%201zm0%201.5a4%204%200%201%200%200%208%204%204%200%200%200%200-8z%22%20fill%3D%22%23818c99%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+  background-position: 10px;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+
+.search::placeholder {
+  color: silver;
+}
+
+.item {
+  min-width: 48px;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: .8;
+  transition: .15s;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.notify {
+  margin-left: 15px;
+}
+
+.item-photo {
+  padding-left: 10px;
+  padding-right: 8px;
+  gap: 6px;
+}
+
+.photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.main {
+  margin: 49px 0 0;
+  padding: 15px;
+}
+
+.menu {
+  margin-left: -6px;
+  margin-top: -1px;
+}
+
+.nav-link {
+  width: 163px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  gap: 10px;
+  line-height: 30px;
+  border-radius: 4px;
+}
+
+
+
+.nav-link:hover {
+  background-color: rgba(255,255,255, 8%);
+}
+
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-text {
+  flex-grow: 1;
+}
+
+.nav-count {
+  background-color: rgb(130 130 130);
+  border-radius: 12px;
+  min-width: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 21px;
+  height: 20px;
+  padding: 0 6px;
+  color: white;
+}
+
+.nav-profile {
+  background-image: url(/svg/profile.svg);
+}
+
+.nav-news {
+  background-image: url(/svg/news.svg);
+}
+
+.nav-messenger {
+  background-image: url(/svg/messenger.svg);
+}
+
+.nav-friends {
+  background-image: url(/svg/friends.svg);
+}
+
+.nav-friends {
+  background-image: url(/svg/friends.svg);
+}
+
+.nav-communities {
+  background-image: url(/svg/communities.svg);
+}
+
+.nav-photos {
+  background-image: url(/svg/photos.svg);
+}
+
+.nav-music {
+  background-image: url(/svg/music.svg);
+}
+
+.nav-videos {
+  background-image: url(/svg/videos.svg);
+}
+
